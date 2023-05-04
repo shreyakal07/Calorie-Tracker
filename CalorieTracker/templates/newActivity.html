@@ -1,0 +1,81 @@
+{% extends "layout.html" %}
+{% block title %}New Activity{% endblock %}
+{% block body %}
+<script>
+  var subjectObject = {
+    "Walking": {
+    },
+    "Running": {
+    },
+    "Cycling": {
+    },
+    "Swimming": {
+    }
+  }
+  window.onload = function() {
+    var subjectSel = document.getElementById("subject");
+    var topicSel = document.getElementById("topic");
+    var chapterSel = document.getElementById("chapter");
+    for (var x in subjectObject) {
+      subjectSel.options[subjectSel.options.length] = new Option(x, x);
+    }
+    subjectSel.onchange = function() {
+      //empty Chapters- and Topics- dropdowns
+      chapterSel.length = 1;
+      topicSel.length = 1;
+      //display correct values
+      for (var y in subjectObject[this.value]) {
+        topicSel.options[topicSel.options.length] = new Option(y, y);
+      }
+    }
+    topicSel.onchange = function() {
+      //empty Chapters dropdown
+      chapterSel.length = 1;
+      //display correct values
+      var z = subjectObject[subjectSel.value][this.value];
+      for (var i = 0; i < z.length; i++) {
+        chapterSel.options[chapterSel.options.length] = new Option(z[i], z[i]);
+      }
+    }
+  }
+  </script>
+  <ul>
+    <li class="active"><a href="{{ url_for('newActivity') }}">New Activity </a></li>
+    <li><a href="{{ url_for('home') }}">Past Activities </a></li>
+    <li><a href="{{ url_for('profile') }}">Profile</a></li>
+    <li><a href="{{ url_for('logout') }}">Log Out</a></li>
+  </ul>
+  
+  <div style="margin: 1% 0 0 1%">
+  <h2>New Activity</h2>
+  {% if error %}<div class="error"><strong>Error:</strong> {{ error }}</div>{% endif %}
+  <form action="" method="post">
+    <dl>
+      <dt>Activity Type: 
+        <select style="margin: 0 0 5px 0" name="activitytype" id="subject">
+            <option value="" selected="selected">Select activity</option>
+          </select>
+      <dt>Duration:
+      <input style="margin: 0 0 5px 0" type="text" name="duration" placeholder="hours" size="10">
+      <input type="text" name="duration_minutes" placeholder="minutes" size="10">
+      <dt>Would you like to save this calculation?:
+      <input type="checkbox" name="userinfo" value="no" id="check" size="30">
+    </dl>
+    <div class="actions"><input type="submit" value="Calculate!"></div>
+
+  </form>
+  
+  <script>    
+    
+    
+   
+  </script>
+
+<h2 style="margin: 10px 0 0 0">Your Last Calculation</h2>
+<h3>Activity: {{ activity }}</h3>
+<h3>Duration: {{ durationHour }}h {{ durationMinute }}m</h3>
+<h3>Calories burned: {{ calculation }}</h3>
+	
+</div>
+  
+{% endblock %}

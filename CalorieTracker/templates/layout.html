@@ -1,0 +1,23 @@
+<!doctype html>
+<head>
+  <script src="https://unpkg.com/htmx.org@1.9.0" integrity="sha384-aOxz9UdWG0yBiyrTwPeMibmaoq07/d3a96GCbb9x60f3mOt5zwkjdbcHFnKH8qls" crossorigin="anonymous"></script>
+</head>
+<title>{% block title %}Welcome{% endblock %} | Chat Site</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+<div class="page">
+    <div id="title">Calorie Tracker</div>
+    {% with flashes = get_flashed_messages() %}
+      {% if flashes %}
+        <ul class="flashes">
+        {% for message in flashes %}
+        <li>{{ message }}
+      {% endfor %}
+      </ul>
+    {% endif %}
+  {% endwith %}
+  <div class="body">
+  {% block body %}{% endblock %}
+  </div>
+  <div class="footer">
+  </div>
+</div>

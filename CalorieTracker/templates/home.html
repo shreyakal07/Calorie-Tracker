@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+{% block title %}Sign In{% endblock %}
+{% block body %}
+    <ul>
+        <li><a href="{{ url_for('newActivity') }}">New Activity </a></li>
+        <li class="active"><a href="{{ url_for('home') }}">Past Activities </a></li>
+        <li><a href="{{ url_for('profile') }}">Profile</a></li>
+        <li><a href="{{ url_for('logout') }}">Log Out</a></li>
+    </ul>
+  {% if activities %}
+  <div class="events">
+  
+  <table>
+    <tr>
+      <th style="text-align: center;">Activity</th>
+      <th style="text-align: center;">Date</th>
+      <th>    </th>
+    </tr>
+  {%for activity in activities%} 
+  {% if g.user.user_id == activity.parent_id%}
+    <tr>
+           <span><td style="text-align: center;">{{ activity.activity_type }}</td></span> <span><td style="text-align: center;">{{ activity.date_created.strftime('%a %d %b %Y, %I:%M%p') }}</td></span> 
+          <td style="text-align: center;"><a style="text-decoration: none;" href="{{ url_for('activity', activityid=activity.activity_id) }}"> View </a> <a style="text-decoration: none;" href="{{ url_for('delete', activityid=activity.activity_id) }}">Delete</a> </td>
+    </tr>
+    {% endif %}
+  {% endfor %}
+  </table>
+  
+  </div>
+  {% else %}
+    <span>There are no activities yet.</span>
+  {% endif %}
+{% endblock %}
