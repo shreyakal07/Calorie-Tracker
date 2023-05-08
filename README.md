@@ -13,6 +13,7 @@ Once the user has successfully logged into the application, they will be present
 <img width="1437" alt="Screen Shot 2023-05-08 at 12 38 41 PM" src="https://user-images.githubusercontent.com/77303646/236880843-e880b52a-8903-47b7-9047-cb0735755212.png">
 
 Once the user is finished inputting all required fields, he/she will click calculate to recieve their respective calorie deficit. 
-<img width="1440" alt="Screen Shot 2023-05-08 at 12 42 01 PM" src="https://user-images.githubusercontent.com/77303646/236881221-80f3633e-9765-48e1-b608-ed40f2a76b1f.png">
-<img width="1440" alt="Screen Shot 2023-05-08 at 12 42 12 PM" src="https://user-images.githubusercontent.com/77303646/236881253-3fa20335-e290-4b2e-a187-0252066e7f04.png">
+<img width="1415" alt="Screen Shot 2023-05-08 at 12 42 12 PM" src="https://user-images.githubusercontent.com/77303646/236881745-2a522bc7-3ec3-42cb-b623-583ec8e28dad.png">
+<img width="1427" alt="Screen Shot 2023-05-08 at 12 42 01 PM" src="https://user-images.githubusercontent.com/77303646/236881775-75ec8279-9a70-4dca-a02b-07f0fedac578.png">
+
 
