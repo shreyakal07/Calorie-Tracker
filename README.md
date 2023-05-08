@@ -19,5 +19,16 @@ Once the user is finished inputting all required fields, he/she will click calcu
 <img width="1427" alt="Screen Shot 2023-05-08 at 12 42 01 PM" src="https://user-images.githubusercontent.com/77303646/236881775-75ec8279-9a70-4dca-a02b-07f0fedac578.png">
 <img width="1415" alt="Screen Shot 2023-05-08 at 12 42 12 PM" src="https://user-images.githubusercontent.com/77303646/236881745-2a522bc7-3ec3-42cb-b623-583ec8e28dad.png">
 
+### New Activity Page: 
+Since the user has clicked the "Would you like to save this calculation?:" option in the new activity page, he/she will have access to view their past calculations to any given time. 
+
+<img width="1422" alt="Screen Shot 2023-05-08 at 12 59 44 PM" src="https://user-images.githubusercontent.com/77303646/236885057-ff38ce9b-8fb7-4c5e-8e04-cb85d4b2997f.png">
+
+To view the past calculation in more depth, simply click the view option. This will display the user all the information that was given by he/she previously, as well as displaying their profile.
+<img width="1427" alt="Screen Shot 2023-05-08 at 12 42 01 PM" src="https://user-images.githubusercontent.com/77303646/236885537-c14d235c-ce7c-4da3-bcb4-86abb4a081fd.png">
+
+
+
+
 
 
