@@ -25,6 +25,7 @@ Since the user has clicked the "Would you like to save this calculation?" option
 <img width="1422" alt="Screen Shot 2023-05-08 at 12 59 44 PM" src="https://user-images.githubusercontent.com/77303646/236885057-ff38ce9b-8fb7-4c5e-8e04-cb85d4b2997f.png">
 
 To view the past calculation in more depth, simply click the view option. This will display the user all the information that was given by he/she previously, as well as displaying their profile. To return back to the past acitivities page, click the "back" link.
+
 <img width="1430" alt="Screen Shot 2023-05-08 at 1 03 42 PM" src="https://user-images.githubusercontent.com/77303646/236885733-436e8072-75ed-4a46-8836-77bb7ba9b880.png">
 
 ### Profile Page: 
@@ -34,8 +35,14 @@ The profile page includes the user's information that was given when he/she was 
 <img width="1414" alt="Screen Shot 2023-05-08 at 1 07 13 PM" src="https://user-images.githubusercontent.com/77303646/236886558-bb8119a1-9ae4-4461-adab-2bcc343baa00.png">
 
 Once the user modifies an input, click the "submit" button to save any changes. 
+
 <img width="1430" alt="Screen Shot 2023-05-08 at 1 08 46 PM" src="https://user-images.githubusercontent.com/77303646/236886707-29dd6eac-8eb0-460a-b599-a1d393f61435.png">
 
+### Logout Page: 
+If the user clicks on the logout page, he/she will return back to the login page and has entry to the application at any time. To log back in, simply put in your credentials for access. 
+
+<img width="1437" alt="Screen Shot 2023-05-08 at 1 14 11 PM" src="https://user-images.githubusercontent.com/77303646/236887755-0e2d73b1-4925-4846-ac33-c904bb887433.png">
+<img width="1435" alt="Screen Shot 2023-05-08 at 1 14 33 PM" src="https://user-images.githubusercontent.com/77303646/236887845-55da38d8-371d-4947-bd42-57a3559fcd31.png">
 
 
 
