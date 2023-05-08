@@ -36,10 +36,11 @@ The profile page includes the user's information that was given when he/she was 
 
 Once the user modifies an input, click the "submit" button to save any changes. 
 
-<img width="1430" alt="Screen Shot 2023-05-08 at 1 08 46 PM" src="https://user-images.githubusercontent.com/77303646/236886707-29dd6eac-8eb0-460a-b599-a1d393f61435.png">
+<img width="1417" alt="Screen Shot 2023-05-08 at 1 08 46 PM" src="https://user-images.githubusercontent.com/77303646/236888161-7c579d50-17cf-402d-8c60-3291efe4fc83.png">
+
 
 ### Logout Page: 
-If the user clicks on the logout page, he/she will return back to the login page and has entry to the application at any time. To log back in, simply put in your credentials for access. 
+If the user clicks on the log out page, he/she will return back to the login page and has entry to the application at any time. To log back in, simply put in your credentials for access. 
 
 <img width="1437" alt="Screen Shot 2023-05-08 at 1 14 11 PM" src="https://user-images.githubusercontent.com/77303646/236887755-0e2d73b1-4925-4846-ac33-c904bb887433.png">
 <img width="1435" alt="Screen Shot 2023-05-08 at 1 14 33 PM" src="https://user-images.githubusercontent.com/77303646/236887845-55da38d8-371d-4947-bd42-57a3559fcd31.png">
